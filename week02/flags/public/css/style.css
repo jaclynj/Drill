@@ -34,7 +34,7 @@ article {
 }
 
 .blue_stripe {
-  background-color: blue;
+  background-color: darkblue;
 }
 
 .cross_h {
@@ -50,20 +50,72 @@ article {
   width: 20%;
   height: 100%;
   margin-left: 40%;
+  position: absolute;
 }
 
-.yellow_stripe {
+.yellow_stripe.cross_v {
   background-color: yellow;
+  margin-left: 28%;
+}
+.yellow_stripe.cross_h {
+  background-color: yellow;
+  margin-top: 30%;
 }
 
 .flag3 {
   background-color: blue;
 }
+.flag4 {
+  background-color: darkblue;
+}
 
 .blue_cube {
-  height: 150px;
-  width: 150px;
+  height: 174px;
+  width: 174px;
   background-color: darkblue;
-  position: relative;
+  position: absolute;
   margin-top: 0;
+  z-index: 100;
+  overflow: auto;
+}
+
+.stars {
+  z-index: 200;
+  position: relative;
+  float: left;
+  padding: 0px 8px;
+  font-size: 12px;
+  color: white;
+}
+
+.line {
+  margin-left: 15px;
+}
+
+.replace {
+     text-indent: 100%;
+     white-space: nowrap;
+     overflow: hidden;
+     background-size: contain;
+}
+
+.flag5 {
+  background-color: red;
+}
+
+.thin {
+  display: block;
+  width: 100%;
+  height: 10%;
+  position: relative;
+  margin-top: 8%;
+  float: top;
+}
+
+.thinner {
+  height: 7.5%;
+  position: relative;
+  margin-top: 5.5%;
+  float: top;
+
 }
