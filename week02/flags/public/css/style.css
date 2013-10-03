@@ -1,14 +1,69 @@
 body {
-
+  background-color: #facade;
 }
 
-.flag1 {
-
+article {
+  margin: 20px;
+  height: 320px;
+  width: 462px;
+  display: block;
+  overflow: hidden;
+  border: 1px solid black;
+  background-color: white;
+  position: relative;
 }
 
 .horizontal {
   display: block;
+  width: 500px;
+  height: 107px;
+}
+
+.verticle {
+  display: inline-block;
+  width: 151px;
+  height: 500px;
+}
+
+.red_stripe {
   background-color: red;
-  width: 200px;
-  height: 600px;
+}
+
+.white_stripe {
+  background-color: white;
+}
+
+.blue_stripe {
+  background-color: blue;
+}
+
+.cross_h {
+  display: block;
+  width: 100%;
+  height: 20%;
+  margin-top: 40%;
+  position: absolute;
+}
+
+.cross_v {
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  margin-left: 40%;
+}
+
+.yellow_stripe {
+  background-color: yellow;
+}
+
+.flag3 {
+  background-color: blue;
+}
+
+.blue_cube {
+  height: 150px;
+  width: 150px;
+  background-color: darkblue;
+  position: relative;
+  margin-top: 0;
 }
