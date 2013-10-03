@@ -1,0 +1,14 @@
+body {
+
+}
+
+.flag1 {
+
+}
+
+.horizontal {
+  display: block;
+  background-color: red;
+  width: 200px;
+  height: 600px;
+}
